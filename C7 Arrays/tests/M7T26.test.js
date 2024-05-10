@@ -19,7 +19,7 @@ test('should return the first multiple of 5 in the sequence', () => {
 test('should return undefined if no multiple is found', () => {
    const secuencia = [1, 2, 3, 4, 5, 6, 7, 8, 9];
    const n = 7;
-   const expected = undefined;
+   const expected = 7;
    const result = encontrarPrimerMultiploDeN(n, secuencia);
    expect(result).toBe(expected);
 });
